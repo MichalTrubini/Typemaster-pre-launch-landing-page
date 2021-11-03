@@ -161,4 +161,9 @@ img {
 html {
   font-size: 62.5%;
 }
+
+body {
+  font-family: 'Barlow', sans-serif;
+  color: #7B8BAD;
+}
 /*# sourceMappingURL=style.css.map */
