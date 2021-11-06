@@ -165,5 +165,222 @@ html {
 body {
   font-family: 'Barlow', sans-serif;
   color: #7B8BAD;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+h1, h2, h3 {
+  color: #162542;
+  font-weight: 900;
+}
+
+.header {
+  padding-top: 2.3rem;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__pre-order-link {
+  background: #E8EFF2;
+  color: #162542;
+}
+
+.nav__pre-order-link:hover {
+  background: #162542;
+  color: #fff;
+}
+
+.container {
+  padding: 0 2.4rem;
+}
+
+.pre-order-link {
+  font-weight: 700;
+  display: block;
+  width: 151px;
+  height: 48px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  line-height: 48px;
+}
+
+.hero {
+  margin-top: 6.4rem;
+}
+
+.hero__heading {
+  font-size: 4.8rem;
+  line-height: 4.8rem;
+  text-align: left;
+}
+
+.hero__paragraph {
+  text-align: left;
+  line-height: 2.6rem;
+  margin: 3.2rem 0;
+  max-width: 51rem;
+}
+
+.hero__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero__pre-order-link {
+  background: #F16718;
+  color: #fff;
+}
+
+.hero__pre-order-link:hover {
+  background: #FF9B62;
+}
+
+.hero__release-date {
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-right: 1.8rem;
+}
+
+.hero__image-wrapper {
+  padding-left: 24px;
+}
+
+.hero__image {
+  border-radius: 20px 0 0 20px;
+  margin-top: 6.4rem;
+}
+
+.product__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2.4rem;
+  padding-right: 2.4rem;
+}
+
+.product__image-item {
+  border-radius: 20px;
+  height: 193px;
+}
+
+.product__image:first-child {
+  position: relative;
+  left: -22px;
+}
+
+.product__image-left {
+  background-color: #F16718;
+  background-image: url(../assets/mobile/image-phone-and-keyboard.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-blend-mode: multiply;
+  border-radius: 20px;
+  width: 129px;
+}
+
+.product__heading {
+  width: 25.5rem;
+  margin: 7.5rem auto 0;
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+}
+
+.product__paragraph {
+  margin: 2.4rem 0 11.1rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+}
+
+.highlights__highlight {
+  margin-bottom: 6.4rem;
+}
+
+.highlights__highlight:last-child {
+  margin-bottom: 0;
+}
+
+.highlights__icon-box {
+  width: 65px;
+  height: 65px;
+  border-radius: 16px;
+  background: #F16718;
+  margin: auto;
+}
+
+.highlights__icon {
+  margin-top: 20px;
+}
+
+.highlights__heading {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  margin: 4.8rem auto 2.4rem;
+  max-width: 15rem;
+}
+
+.highlights__paragraph {
+  line-height: 2.6rem;
+  max-width: 32.7rem;
+  margin: auto;
+}
+
+.highlights:last-child__paragraph {
+  margin-bottom: 0;
+}
+
+.footer {
+  padding: 9.6rem 2.4rem 5rem;
+}
+
+.footer__copyright {
+  font-weight: 700;
+}
+
+.footer__copyright:after {
+  content: "\00a0 ";
+}
+
+.footer__rights:before {
+  content: "\00a0 ";
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 3.9rem;
+  }
+  .header {
+    padding-top: 4rem;
+  }
+  .pre-order-link {
+    width: 175px;
+    height: 58px;
+    line-height: 58px;
+  }
+  .hero {
+    margin-top: 6.2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .hero__image {
+    margin-top: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
